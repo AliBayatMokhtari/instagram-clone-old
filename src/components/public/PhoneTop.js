@@ -7,6 +7,8 @@ const useStyles = createUseStyles({
     justifyContent: "space-between",
     alignItems: "baseline",
     width: "100%",
+    backgroundColor: "#e2e2e2",
+    padding: "10px",
   },
   signalIcon: {
     marginRight: "3px",

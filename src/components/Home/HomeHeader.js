@@ -3,10 +3,11 @@ import { createUseStyles } from "react-jss";
 
 const useStyles = createUseStyles({
   homeHeaderContainer: {
-    paddingTop: "15px",
-    paddingLeft: "3px",
     display: "flex",
     justifyContent: "space-between",
+    backgroundColor: "#e2e2e2",
+    padding: "5px 10px 15px 10px",
+    width: "100%",
   },
   instagramTypography: {
     marginLeft: "5px",

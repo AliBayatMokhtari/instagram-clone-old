@@ -13,8 +13,6 @@ const useStyles = createUseStyles({
     maxWidth: "500px",
     width: "500px",
     minWidth: "500px",
-    backgroundColor: "#e2e2e2",
-    padding: "10px",
   },
 });
 
