@@ -1,17 +1,18 @@
 import React from "react";
+import PostHeader from "./PostHeader";
 import { createUseStyles } from "react-jss";
 
 const useStyles = createUseStyles({
-  postHeaderContainer: {},
+  postContainer: {},
 });
 
-const PostHeader = () => {
+const Post = () => {
   const classes = useStyles();
   return (
-    <div className={classes.postHeaderContainer}>
-      this is post header
+    <div className={classes.postContainer}>
+      <PostHeader />
     </div>
   );
 };
 
-export default PostHeader;
+export default Post;
