@@ -1,5 +1,6 @@
 import React from "react";
 import PhoneTop from "./components/public/PhoneTop";
+import Home from "./pages/Home";
 import { createUseStyles } from "react-jss";
 
 const useStyles = createUseStyles({
@@ -23,6 +24,7 @@ function App() {
     <div className={classes.bodyContainer}>
       <div className={classes.AppContainer}>
         <PhoneTop />
+        <Home />
       </div>
     </div>
   );
