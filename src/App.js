@@ -21,7 +21,6 @@ function App() {
   return (
     <div className={classes.bodyContainer}>
       <div className={classes.AppContainer}>
-        <PhoneTop />
         <Home />
       </div>
     </div>

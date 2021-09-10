@@ -6,7 +6,10 @@ const Home = () => {
   return (
     <div>
       <HomeHeader />
-      <Post />
+      <Post
+        userName="Ali BM"
+        avatarUrl="https://picsum.photos/110/110"
+      />
     </div>
   );
 };
