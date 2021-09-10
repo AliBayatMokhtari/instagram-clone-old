@@ -1,3 +1,5 @@
+> This application is not completed yet and still needs to develop.
+
 # Screen shots
 
 ![demo 1](./demo/demo-1.png)
