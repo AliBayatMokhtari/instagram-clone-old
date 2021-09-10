@@ -57,7 +57,7 @@ const PostActions = props => {
     <div className={classes.actionsContainer}>
       <div className={classes.likeCommentDirectContainer}>
         <span onClick={likePost}>
-          {isLiked ? (
+          {!isLiked ? (
             <i
               className={`fa fa-heart-o ${classes.likeCommentDirectContainerActionItem}`}
               aria-hidden="true"
@@ -84,7 +84,7 @@ const PostActions = props => {
       </div>
       <div className={classes.saveContainer}>
         <span onClick={savePost}>
-          {isSaved ? (
+          {!isSaved ? (
             <i
               className={`fa fa-bookmark-o ${classes.saveActionItem} `}
               aria-hidden="true"
